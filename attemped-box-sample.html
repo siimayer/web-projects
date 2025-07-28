@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Geliştirme Denemesi</title>
+  <style>
+  
+    body {
+      background-color: #fffde7; 
+      font-family: 'Segoe UI', sans-serif;  
+      display: flex; 
+      justify-content: center;  
+      align-items: center;  
+      height: 100vh;  
+      margin: 0;  
+
+   
+    .kutu {
+      background-color: #fbc02d;  
+      color: #ffffff;  
+      padding: 30px 40px;  
+      border-radius: 12px; 
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);  
+      width: 300px; 
+      text-align: center;  
+      transition: transform 0.3s ease, background-color 0.3s ease;  
+      
+    }
+
+    .kutu:hover {
+      transform: scale(1.05); 
+      background-color: #f57f17;  
+    }
+
+    
+    h1 {
+      font-size: 24px;  
+      margin-bottom: 15px;  
+    }
+
+    
+    p {
+      font-size: 16px;  
+      line-height: 1.5;  
+       margin: 0;  
+    }
+
+  
+    button {
+      margin-top: 20px; 
+      padding: 10px 20px;  
+      background-color: #ffffff;  
+      color: #f57f17;  
+      border: 2px solid #f57f17;  
+      border-radius: 8px;  
+      cursor: pointer;  
+      font-weight: bold;  
+      transition: all 0.3s ease; 
+    }
+
+    
+    button:hover {
+      background-color: #f57f17;  
+      color: white; 
+    }
+  </style>
+</head>
+<body>
+
+  <div class="kutu">
+    <h1>Merhaba,Sulhadin Abi!</h1>
+    <p>Bu, CSS özellikleriyle yazılmış bir kutudur.</p>
+    <button>Tıkla</button>
+  </div>
+
+</body>
+</html>
